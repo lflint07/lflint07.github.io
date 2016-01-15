@@ -1,29 +1,283 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>J. Luke Flint's Portfolio</title>
-    <link href="style.css" rel="stylesheet" type="text/css" >
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
 
-   </head>
+<!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
 
-  <body>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>J. Luke Flint</title>
 
-  	<img src="http://ratiochristi.org/media/news/csv/anime-fantasy-hd-matrix-and-blue-circles-on-the-pictures-d-765295.jpg">
-    <h1>Welcome to the portfolio site of <strong>J. Luke Flint!</strong></h1>
-
-    <p>
-    	Congratulations!
-    	You've made it this far. 
-    	Come on in, pull up a chair, and take a look around to see if anything is of interest to you. Feel free to poke and prod until you are satisfied and once you are done, please feel free to leave me a comment or shoot me an e-mail. 
-    </p>
-
-   <h2> About Me </h2>
-   	<p>
-   <h2> Work Experience </h2>
-   <h2> Projects </h2>
-   <h2> Contact Info </h2>
-   
-  </body>
+<!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
 
 
+
+<body class="blue-grey darken-4">
+
+<!--navbar-->
+  <nav>
+
+    <div class="blue-grey darken-4 nav-wrapper">
+      <a href="#!" class="yellow-text brand-logo center">J. Luke Flint</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a data-target="modal1" class="modal-trigger yellow-text">Contact Me</a>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <h3 class="blue-text"><i class="mdi-social-group"></i></h3><h4 class="yellow-text">Speak To Me!</h4>
+        <div class="collection blue-text">
+          <a href="mailto:lflint07@gmail.com" class="collection-item" target="_blank">Gmail</a>
+          <a href="https://instagram.com/InLikeCoolhand/" class="collection-item" target="_blank">Instagram</a>
+          <a href="https://github.com/lflint07 class="collection-item" target="_blank">GitHub</a>
+        </div>
+      </ul>
+    </div>
+  </nav>
+<!--End navbar-->
+
+      <!--   Icon Section   -->
+<!-- Banner -->
+  <div id="index-banner introduction">
+    <div class="parallax-container plax">
+      <div class="container">
+        <div class="center m6">
+            <img class="responsive-img valign-wrapper circle headshot" src="Tech Talent South.png" height="80" width="100">
+            <br>
+            <h4 class="yellow-text">
+
+      <i class="glass">Web Developer</i> <br> <i class="glass">Rails Full-Stack Development</i> <br><i class="glass">Data Science and Big Data</i></h4>
+      </div>
+        <div img class="parallax"><img src="Night_Sky.png" height=100 width= 100></div>
+      </div>
+    </div>
+  </div>
+<!-- End Banner -->
+
+
+
+<!--Collapsible -->
+  <div class="blue-grey darken-4">
+    <div class="container list">
+      <ul class="collapsible popout" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">person_pin</i>About Me</div>
+          <div class="collapsible-body materialize light-blue darken-2"><p> I am an aspiring web developer currently living in the "Queen City", Charlotte, North Carolina. I was born in Staunton, Virginia where I lived my entire life until I attended Virginia Polytechnic Institute and State University (Virginia Tech). I graduated from Tech in 2011 with a business degree in Hospitality and Tourism Management. After graduation I moved back home and started the career adventure that I've been on ever since. I've worked in construction, in retail, sold voluntary benefit insurance, prepared taxes, reviewed financial contracts and worked as a digital projectionist for a movie theater. Every step of my journey has led me to my current position as a junior web developer. In my free time, I enjoy weightlifting and nutrition, watching tv shows and movies, and painting.
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">web</i>Web Development</div>
+          <div class="collapsible-body materialize light-blue darken-2"><p>I have always had a vested interest in computers and technology but I never really considered the possibility of pursuing a career in the industry until I discovered Tech Talent South. TTS changed my perception of what I could accomplish and taking the full time code immersion boot camp has honestly (all joking aside) changed my life. After I decided to take the plunge I realized that there was so much I could learn and how real of an option a career in web development was. TTS has been a great way for me to get my career started while also building out my professional network and portfolio.</p></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">assessment</i>Skills</div>
+          <div class="collapsible-body materialize light-blue darken-2"><p> During my code immersion bootcamp, I learned a variety of web development and software skills. The class primarily focused on the language Ruby and the framework Rails. The MVP methodology was utilized in the creation of all the applications. I became proficient in HTML and CSS, learned the basics of JavaScript, and was introduced to Bootstrap and Materialize. Through Tech Talent South, I was enrolled in a "Big Data" class as well. During that course, I learned about the role of big data and how it is being implemented in the industry today. I was introduced to the data driven tools Graph Story, Neo4J, and Cloud9 besides others.</p></div>
+        </li>
+      </ul>
+    </div>
+</div>
+<!--End Collapsible -->
+
+
+
+
+<!--scrollsy side bar
+  <div class="row">
+    <div class="col s12 m9 l10">
+      <div id="introduction" class="section scrollspy">
+      </div>
+      <div id="structure" class="section scrollspy">
+      </div>
+      <div id="initialization" class="section scrollspy">
+      </div>
+    </div>
+    <div class="col hide-on-small-only m3 l2">
+      <ul class="section table-of-contents">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#structure">Structure</a></li>
+        <li><a href="#initialization">Intialization</a></li>
+      </ul>
+    </div>
+  </div> -->
+
+
+<!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h3 class="black-text"><i class="mdi-social-group"></i></h3><h4>Speak To Me!</h4>
+      <p>Do you have a question or comment? Are you interested in working with me? Do you have an open position that you think I would be a great fit for? Please feel free to send me an email! And while you're at it, you might as well check out my Instagram and GitHub accounts.</p>
+
+      <div class="collection">
+        <a href="mailto:lflint07@gmail.com" class="materialize light-blue lighten-2 collection-item active" target="_blank">Gmail</a>
+        <a href="https://instagram.com/InLikeCoolHand/" class="collection-item" target="_blank">Instagram</a>
+        <a href="https://github.com/lflint07" class="collection-item" target="_blank">GitHub</a>
+      </div>
+
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Thanks!</a>
+    </div>
+  </div>
+<!-- End Modal Structure -->
+
+
+<!-- Card row -->
+
+<div class="parallax-container lax2">
+      <div class="parallax"><img src="River.jpg" height="350" width="350"></div>
+          <div class="container row">
+
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="chompr.png">
+                    </div>
+                    <div class="card-content center">
+                      <span class="card-title activator grey-text text-darken-4">Chompr<i class="material-icons right"></i></span>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Chompr<i class="material-icons right">close</i></span>
+                      <p>The application <a href="https://obscure-island-8026.herokuapp.com/"class="collection-item" target="_blank">Chompr</a> was conceived as the group project idea during my Tech Talent South code immersion class. It is a Tinder-based app but relies on food preference to dilieante potential relationship matches for the user. Start chompn'!</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="movieDB.png">
+                    </div>
+                    <div class="card-content center">
+                      <span class="card-title activator grey-text text-darken-4">Movie Database<i class="material-icons right"></i></span>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Movie Database<i class="material-icons right">close</i></span>
+                      <p>This <a href="https://github.com/lflint07/movieDB" class="collection-item" target="_blank">Movie Database</a> is a soon-to-be rival of IMDB. This app, like all my apps, was created using Ruby on Rails as a student in Tech Talent South's code immersion program. Browse away!</p>
+                    </div>
+                  </div>
+                </div>
+
+                 <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="Bird.png">
+                    </div>
+                    <div class="card-content center">
+                      <span class="card-title activator grey-text text-darken-4">Bird<i class="material-icons right"></i></span>
+
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Bird<i class="material-icons right">close</i></span>
+                      <p><a href="https://github.com/lflint07/Bird_Twitter" class="collection-item" target="_blank">Bird</a> is a Twitter-esque application named affectiontely after one of the all time greatest players, Larry Bird. Instead of "tweets", the user shoots a "shot" each time they post something. Go ahead and get some "shots" up with Bird. </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="Donut_Shop.png">
+                    </div>
+                    <div class="card-content center">
+                      <span class="card-title activator grey-text text-darken-4">Donut Shop<i class="material-icons right"></i></span>
+
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Donut Shop<i class="material-icons right">close</i></span>
+                      <p><a href="https://github.com/lflint07/tts_donut" class="collection-item" target="_blank">The Donut Shop</a> app was one of the first apps I built during my class. It is a small database app that acts as a store-front for my fictious donut shop. Take a peek at the assortment of delicious treats. </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="Good_Coffee.png">
+                    </div>
+                    <div class="card-content center">
+                      <span class="card-title activator grey-text text-darken-4">Good Coffee<i class="material-icons right"></i></span>
+
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Good Coffee<i class="material-icons right">close</i></span>
+                      <p>"Good Coffee" is a static application that I created during my class to learn and develop my understanding of HTML, CSS, and JavaScript. It utilizes the Bootstrap framework as well.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="Marta.png">
+                    </div>
+                    <div class="card-content center">
+                      <span class="card-title activator grey-text text-darken-4">Marta<i class="material-icons right"></i></span>
+
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Marta<i class="material-icons right">close</i></span>
+                      <p>The Marta app was created to help understand and explore Application Programming Interfaces. This app is useful in determining where the closest Marta Bus is to your current location. If you reside in Atlanta, this is the app you have to have. </p>
+                    </div>
+                  </div>
+                </div>
+
+</div>
+<!--End Card Row-->
+
+
+
+
+<!-- footer -->
+    <footer class="page-footer blue-grey darken-4 container foot">
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="card center blue-grey darken-3">
+            <div class="card-content right yellow-text darken-2">
+              <span class="card-title center">Speak To Me</span>
+              <p class="container-center yellow-text-lighten-4">I'm always open to hearing from everyone. Please feel free to reach out to me through e-mail, follow me on Twitter and Instagram, and check out my GitHub repository</p>
+              <br>
+            </div>
+            <br>
+            <div class="card-action center dark-bluelighten-2">
+              <div class=container-center yellow-text-lighten-4">
+               <a href="mailto:lflint07@gmail.com" target="_blank">Gmail</a>
+               <a href="https://www.twitter.com/InLikeCoolHand" target="_blank">Twitter</a>
+               <a href="https://instagram.com/InLikeCoolHand/" target="_blank">Instagram</a>
+               <a href="https://github.com/lflint07@gmail.com" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        </div>
+
+      </div>
+
+    <br>
+
+  </footer>
+<!--End Footer-->
+
+
+<script>
+$(document).ready(function() {
+  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  $('.modal-trigger').leanModal();
+  });
+$(document).ready(function(){
+   // Activate the side menu
+  $(".button-collapse").sideNav();
+  });
+$(document).ready(function(){
+  $('.parallax').parallax();
+  });
+</script>
+</script>
 </html>

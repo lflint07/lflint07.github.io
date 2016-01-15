@@ -1,0 +1,89 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+/* edits */
+
+/* {
+  font-weight: 400;
+  border: 2px solid black;
+ } */
+
+.materialize-red.lighten-5 {
+  background-color: #fdeaeb !important;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.cardinfo {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.activator {
+  height: 170px;
+}
+
+.parallax-container {
+  height: 600px;
+  padding-top: 50px;
+}
+
+
+.headshot {
+  height: 25%;
+  width: 25%;
+  display: inline;
+  vertical-align: middle;
+  
+}
+
+/*Changes made to fix lax cutting off the card*/
+.lax2 {
+  /*    padding-top: 20px;
+      padding-bottom: 20px;*/
+  height: 0.3%;
+}
+
+#subtitle {
+  display: inline-block;
+  text-align: left;
+  font-size: 24px;
+  padding: 20px;
+  margin-bottom: 500px;
+}
+
+.foot {
+  padding-top: 0px;
+}
+
+.list {
+  display: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-text {
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/*Added Card class to container for the cards*/
+
+.fix {
+  margin: 5% auto;
+}
